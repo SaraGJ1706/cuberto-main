@@ -1,0 +1,51 @@
+/*Color de las letras del encabezado inical*/
+#header {
+    color: rgb(12, 188, 129);
+}
+
+/*Ajuste de las imagenes*/
+#img {
+    width: 400px;
+    height: 400px;
+}
+/*Color de fondo de las primera fila*/
+#color1 {
+    background-color: rgb(245, 238, 245);
+}
+
+/*Color de fondo de las segunda fila*/
+#color2 {
+    background-color: rgb(250, 245, 243);
+}
+
+/*Color de fondo de las tercera fila*/
+#color3 {
+    background-color: rgb(242, 249, 248);
+}
+
+/*Color del texto y del fondo del encabezado*/
+#footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+/*Medya Query, adaptacion a movil*/
+@media (max-width: 768px) {
+    #img {
+        width: 100%;
+        height: auto;
+    }
+
+    .col-6 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #header {
+        font-size: 1.5rem;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+} 
